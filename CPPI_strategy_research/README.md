@@ -1,5 +1,4 @@
 ### CPPI vs. OBPI Portfolio Insurance Strategies
-**Location**: [`Applied_Research_Framework_Git/Applied_research/CPPI_strategy_research`]
 
 Monte Carlo simulation comparing Constant Proportion Portfolio Insurance (CPPI) and Option-Based Portfolio Insurance (OBPI) under Black-Scholes and Lévy jump-diffusion models.
 
