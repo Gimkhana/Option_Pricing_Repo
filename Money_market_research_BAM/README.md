@@ -1,5 +1,4 @@
 ### MONIA Forward Rate Curve Construction
-**Location**: [`Applied_Research_Framework_Git/Applied_research/Money_market_research_BAM`]
 
 Development of forward rate model for Moroccan interbank market (MONIA) to support Bank Al-Maghrib's LIBOR transition framework.
 
