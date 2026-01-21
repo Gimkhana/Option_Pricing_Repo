@@ -7,9 +7,9 @@ This project builds a Monte Carlo simulator to answer both questions. We model c
 From the loss distribution, we calculate three risk metrics: Expected Loss (average annual loss), Value at Risk (worst-case loss at 95% confidence), and Expected Shortfall (losses beyond worst-case).
 
 For CDO tranching, we go deeper. Senior tranches get paid first and rarely lose money, so they're cheap and safe. Equity tranches absorb first losses and rarely get paid, so they're expensive and risky. We run the portfolio simulation thousands of times, track how cash flows waterfall through each tranche, and price accordingly. 
-The convergence graphs show convergence—as simulation runs increase, tranche prices stabilize, proving the model works.
+The convergence graphs show convergence: as simulation runs increase, tranche prices stabilize, proving the model works.
 
-The catch: Accuracy depends on input assumptions (default probabilities, correlations, loss amounts). During crises, correlations spike unexpectedly, making 2008-type events invisible in historical data. This is a classroom model, not a production risk engine.
+The catch: Accuracy depends on input assumptions (default probabilities, correlations, loss amounts). During crises, correlations spike unexpectedly, making 2008 type events invisible in historical data. This is a classroom model, not a production risk engine.
 
 Co-authors: Youssouf Bancé, Youssef Louraoui (Université Paris-Saclay, M2 GRA)
 Date: December 2023 | Method: Monte Carlo simulation + convergence testing | Reproducible notebooks on GitHub
