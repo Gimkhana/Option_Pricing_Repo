@@ -21,7 +21,7 @@ Central bank research (Bank Al-Maghrib, Morocco) on LIBOR transition for interba
 
 Key Finding: Paradigm shift from declarative rates (published by banks) to effective rates (actual transaction data). Moroccan market too shallow for maturities >12 months; longer rates become unstable.
 
-Tech: Microsoft Excel, sensitivity analysis | Data: MONIA repo rates (2020-2021) | Co-authors: A. Feral (PhD), A. Rafiki (BAM) | Output: Published working paper on ResearchGate
+Tech: Microsoft Excel, sensitivity analysis | Data: MONIA repo rates (2020-2021) | Co-authors: A. Feral (PhD), A. Rafiki (BAM) | Output: Published presentation slides on ResearchGate
 
 ### **4. CPPI vs. OBPI Portfolio Insurance Strategies**
 Monte Carlo comparison of two portfolio insurance methods under Black-Scholes and Lévy jump-diffusion models. CPPI (rebalance mechanically) vs. OBPI (buy puts to protect downside).
