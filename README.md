@@ -1,8 +1,12 @@
 ## **Master README: Option Pricing Repository**
 
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+<!-- [![R](https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white)](https://www.r-project.org/) -->
+[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+
 This repository elaborates on derivatives pricing, portfolio insurance, and money market modeling.
 It covers five research projects spanning derivatives pricing, credit risk, portfolio management, and fixed-income modeling. Each tackles a real market problem using numerical methods and Monte Carlo simulation. 
-Every model assumes something false. Black-Scholes = constant volatility. Vasicek = negative rates possible. Understand the gap between theory and reality. They're academic foundations, not production systems, but they illustrate how quantitative finance actually works.
+Every model assumes something false. Black-Scholes = constant volatility. Vasicek = negative rates possible. Understand the gap between theory and reality. They are academic foundations, not production systems, but they illustrate how quantitative finance actually works.
 
 ### **1. Option Pricing with Stochastic PDEs**
 Black-Scholes, Cox-Ingersoll-Ross, and Vasicek models using finite difference methods (Crank-Nicolson discretization). Key takeaway: different models suit different problems. Black-Scholes assumes constant volatility (empirically false). CIR prevents negative rates but creates numerical instability. Vasicek is simpler but allows unrealistic negative rates. In production, you'd use ensemble methods or regime-switching.
@@ -38,5 +42,4 @@ Youssef LOURAOUI — youssef.louraoui@essec.edu
 Youssouf BANCÉ — youssouf.bance@essec.edu
 
 Université Paris-Saclay, M2 Risk & Asset Management (GRA) | Academic year 2023-2024
-
 Status: Research-ready | Reproducibility: Full code + notebooks + data
